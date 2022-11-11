@@ -1,0 +1,65 @@
+
+.app{
+    background-color: black;
+    display: grid;
+    justify-items: center;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+}
+
+#hexaCor{
+    width:150px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#nomeCor{
+    width:250px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+label{
+    padding: 5px;
+}
+
+h1{
+    color:white;
+}
+
+.botao{
+    border-radius: 10px;
+    font-size: large;
+    color:white;
+    background-color: #04AA6D;
+    padding: 5px;
+}
+
+.card-cores{
+    width:400px;
+    flex-shrink: 0;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+}
+
+span{
+    font-weight: bold;
+    color:red; 
+}
+
+.card-cadastro{
+    display:grid;
+    justify-items: center;
+    color:white;
+    background-color: rgb(47, 47, 47);
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width:fit-content;
+}
